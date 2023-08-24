@@ -141,3 +141,42 @@ section {
     padding-right: 100px;
     font-weight: 800;
 }
+
+#call-to-action-section {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 92px;
+}
+
+.call-to-action-content {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 92px;
+    width: 600px;
+    height: 150px;
+    padding: 0 50px;
+    border-radius: 8px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-text h3, .call-to-action-text p {
+    margin: 0;
+}
+
+#call-to-action-section button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    padding: 8px 20px;
+    margin-top: 12px;
+    width: 104px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}

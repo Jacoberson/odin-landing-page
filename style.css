@@ -5,11 +5,13 @@ body {
 header {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 92px;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 ul {
@@ -23,9 +25,10 @@ a {
 }
 
 #logo {
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
-    margin: 16px;
+    margin-top: 16px;
 }
 
 .header-links {
@@ -43,5 +46,28 @@ a {
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 64px;
+}
+
+.header-image {
+    background-color: #e5e7eb5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 800;
+    padding: 8px 20px;
+    border-radius: 8px;
 }
 
